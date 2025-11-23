@@ -1,0 +1,24 @@
+{
+  "name": "diplom2",
+  "version": "1.0.0",
+  "description": "[CI]()",
+  "homepage": "https://github.com/OksanaBannova/diplom2#readme",
+  "bugs": {
+    "url": "https://github.com/OksanaBannova/diplom2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OksanaBannova/diplom2.git"
+  },
+  "license": "MIT",
+  "author": "Oksana Bannova <oksanchik2170@yandex.ru>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5000",
+    "lint": "eslint src --ext .js,.html --max-warnings 0",
+    "test": "vitest"
+  }
+}
